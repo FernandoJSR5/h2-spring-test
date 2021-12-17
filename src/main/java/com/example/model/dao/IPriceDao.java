@@ -10,7 +10,7 @@ import java.util.List;
 
 @Repository
 public interface IPriceDao extends CrudRepository<Price, Long> {
-    @Query("SELECT p.productId FROM Price p " +
+    @Query("SELECT p FROM Price p " +
             "WHERE p.brandId = :brand_id AND p.productId = :product_id AND :date BETWEEN p.startDate AND p.endDate")
     List<Price> findPrices(@Param("date") LocalDateTime date,
                                  @Param("product_id") long productId,
