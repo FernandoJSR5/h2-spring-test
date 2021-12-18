@@ -12,7 +12,7 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 mvn clean package
 ```
 
-_Luego de compilar todo el proyecto y generarse el empaquetado en la carpeta target se ejecuta_
+_Luego de compilar todo el proyecto y generar el empaquetado en la carpeta target se ejecuta_
 
 ```
 java -jar target/spring-boot-h2-test-0.0.1-SNAPSHOT.jar
