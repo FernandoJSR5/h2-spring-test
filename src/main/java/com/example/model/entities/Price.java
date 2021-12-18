@@ -1,7 +1,10 @@
 package com.example.model.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.persistence.*;
 import java.io.Serializable;
 import java.time.LocalDateTime;
@@ -9,6 +12,8 @@ import java.time.LocalDateTime;
 @Entity
 @Table(name = "price")
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 
 public class Price implements Serializable {
 
