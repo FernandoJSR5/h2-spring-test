@@ -1,6 +1,6 @@
 # Api Rest H2 Spring Boot
 
-_Se expone una api rest que consulta en la base de datos en memoria (H2) el producto con mejor tarifa_
+_Se expone una api rest que consulta a la base de datos en memoria (H2) el producto con mejor tarifa_
 
 ## Comenzando 🚀
 
@@ -23,7 +23,7 @@ java -jar target/spring-boot-h2-test-0.0.1-SNAPSHOT.jar
 _Consta de:_
 * Cinco pruebas que verifican que a través del endpoint con ciertos parametros de entrada se obtenga el producto con mejor tarifa
 * Una prueba para simular un objeto de tipo respuesta a través del servicio
-* Y una prueba para verificar que se obtiene un producto especifico del repositorio de datos en memoria
+* Y una prueba para verificar que se obtiene un producto específico del repositorio de datos en memoria
 
 ```
 mvn test
